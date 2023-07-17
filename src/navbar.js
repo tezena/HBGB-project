@@ -4,7 +4,7 @@ import { Dropdown,DropdownToggle,DropdownItem,DropdownMenu} from "reactstrap";
 function NavBar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-info p-3">
+      <nav className="navbar navbar-expand-lg navbar-light bg-body-tertiar p-3">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             HBGB
@@ -61,11 +61,7 @@ function NavBar() {
   </Dropdown>     
                 </li>
             </ul>
-            <ul className="navbar-nav ms-auto d-none d-lg-inline-flex">
-              <li className="nav-item mx-2">
-                <button className="btn btn-primary btn-lg" />
-              </li>
-            </ul>
+            
           </div>
         </div>
       </nav>
