@@ -7,12 +7,12 @@ export default function Companies() {
   const Companies = [WHO, UNDP, Eth, WHO, UNDP, Eth];
   return (
     <div className="container-fluid  text-center p-5 mb-3">
-      <h2 className="mt-5 text-blue-500 p-2">Trusted by</h2>
-      <div className="container-fluid overflow-hidden row p-3">
+      <h2 className="fs-2 mytext fw-bold mb-4">Trusted by</h2>
+      <div className="d-flex justify-content-evenly">
         {Companies.map((com, i) => {
           return (
             <div className="col pt-2">
-              <img width="120" height="100" src={com} alt="WHO" />
+              <img width="120" height="100" src={com} alt="WHO" className="grayscale-image" />
             </div>
           );
         })}

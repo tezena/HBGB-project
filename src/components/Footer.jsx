@@ -28,13 +28,13 @@ export default function Footer() {
             <p className="text-secondary">+251-920-735-895</p>
           </div>
         </div>
-        <div
+        {/* <div
           className="bg-white w-40 h-40 mx-5"
           style={{
             width: "300px",
             height: "300px",
             backgroundColor: "white",
-          }}></div>
+          }}></div> */}
       </div>
       <div className="container d-flex flex-row justify-content-between  border-top border-light-subtle mx-auto p-4">
         <p className="text-secondary"> &copy; 2023 HBGB,plc...</p>

@@ -1,3 +1,27 @@
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(06, 11, 23, 1)); /* Adjust the gradient colors and opacity as desired */
+}
+.mybg {
+  background-color: #060b23;
+}
+.herofont {
+  font-size: 120px;
+}
+.mytext {
+  color: #008080;
+}
+.grayscale-image {
+  filter: grayscale(80%);
+}
+.grayscale-image:hover {
+  filter: grayscale(0%);
+}
+
 .App {
   text-align: center;
 }
@@ -12,6 +36,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
