@@ -1,20 +1,20 @@
 import React from 'react'
-import NavBar from '../components/Navbar'
+// import NavBar from '../components/Navbar'
 import HeroSection from '../components/HeroSection'
 import Services from '../components/Services'
 import OurWorks from '../components/OurWorks'
 import Companies from '../components/Companies'
-import Footer from '../components/Footer'
+// import Footer from '../components/Footer'
 
 function LandingPage() {
   return (
     <>
-    <NavBar />
+    {/* <NavBar /> */}
     <HeroSection />
     <Services />
     <OurWorks />
     <Companies />
-    <Footer />
+    {/* <Footer /> */}
     </>
   )
 }
