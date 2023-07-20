@@ -16,7 +16,7 @@ export default function HeroSection() {
       </div>
         <div class="gradient-overlay"></div>
         <div className="position-absolute top-50 start-50 translate-middle">
-          <h1 className="text-center fw-bold text-white herofont">
+          <h1 className="text-center fw-bold text-white fs-1">
             Perfect Solutions
           </h1>
           <p className=" text-center fs-4 mytext">

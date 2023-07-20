@@ -8,7 +8,7 @@ export default function Companies() {
   return (
     <div className="container-fluid  text-center p-5 ">
       <h2 className="fs-2 mytext fw-bold mb-4">Trusted by</h2>
-      <div className="d-flex justify-content-evenly">
+      <div className="d-flex justify-content-evenly flex-wrap">
         {Companies.map((com, i) => {
           return (
             <div className="col pt-2">
