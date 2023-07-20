@@ -5,7 +5,7 @@ import { FiInstagram } from "react-icons/fi";
 export default function Footer() {
   return (
     <div className="bg-dark d-flex flex-column justify-content-center">
-      <div className="d-flex flex-row p-5 justify-content-between">
+      <div className="d-flex flex-row p-5 justify-content-between flex-wrap">
         <div className="d-flex flex-row justify-content-evenly w-50">
           <div className="d-flex flex-column p-3">
             <h3 className="text-light">Learn more</h3>

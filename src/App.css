@@ -12,6 +12,19 @@
 .herofont {
   font-size: 120px;
 }
+@media(max-width:575px){
+  body{
+    width: 100%;
+  }
+  .herofont {
+    font-size:3rem;
+    margin:0 auto;
+  }
+  .mytext {
+    
+  }
+}
+
 .mytext {
   color: #008080;
 }
