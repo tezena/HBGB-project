@@ -1,9 +1,9 @@
 import React from 'react'
 // import NavBar from '../components/Navbar'
 import HeroSection from '../components/HeroSection'
-import Services from '../components/Services'
 import OurWorks from '../components/OurWorks'
 import Companies from '../components/Companies'
+import ServicesLanding from '../components/ServicesLanding'
 // import Footer from '../components/Footer'
 
 function LandingPage() {
@@ -11,7 +11,7 @@ function LandingPage() {
     <>
     {/* <NavBar /> */}
     <HeroSection />
-    <Services />
+    <ServicesLanding />
     <OurWorks />
     <Companies />
     {/* <Footer /> */}
