@@ -21,6 +21,63 @@
 .grayscale-image:hover {
   filter: grayscale(0%);
 }
+.mycontainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh; 
+}
+
+.sliding-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: url("./assets/yulia-matvienko-ArA3S3k0wTU-unsplash.jpg");
+  background-size: 300px 300px;
+  /* background-repeat: repeat; */
+  /* background-position: center; */
+  z-index: 0;
+  animation: sliding-animation 30s linear infinite; /* Adjust the animation duration as needed */
+  /* transform: rotate(45deg); Set the initial rotation angle */
+}
+
+@keyframes sliding-animation {
+  0% {
+    transform: translateX(-100%) rotate(0deg); /* Starting position */
+  }
+  100% {
+    transform: translateX(100%) rotate(0deg); /* Ending position */
+  }
+}
+
+.grayscale-image {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.container:hover .grayscale-image {
+  filter: grayscale(0%);
+}
+/* Duplicates */
+/* .container::before,
+.container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./assets/yulia-matvienko-ArA3S3k0wTU-unsplash.jpg");
+  background-size: cover;
+  background-position: contain;
+  z-index: -1;
+  animation: sliding-animation 10s linear infinite reverse; /* Reverse the animation */
+  /* transform: rotate(135deg); */
+/* } */ */
+
+
 
 .App {
   text-align: center;

@@ -6,7 +6,7 @@ import Eth from "../assets/Ethiopian.png";
 export default function Companies() {
   const Companies = [WHO, UNDP, Eth, WHO, UNDP, Eth];
   return (
-    <div className="container-fluid  text-center p-5 mb-3">
+    <div className="container-fluid  text-center p-5 ">
       <h2 className="fs-2 mytext fw-bold mb-4">Trusted by</h2>
       <div className="d-flex justify-content-evenly">
         {Companies.map((com, i) => {
